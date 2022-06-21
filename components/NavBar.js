@@ -29,7 +29,7 @@ class NavBar extends HTMLElement {
 								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white" href="/about.html">QUIÉNES SOMOS</a>
+								<a class="nav-link text-white" href="./about.html">QUIÉNES SOMOS</a>
 							</li>
 							<li class="nav-item">
 								<a class="nav-link text-white" href="#">PREGUNTAS</a>
