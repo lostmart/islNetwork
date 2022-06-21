@@ -1,0 +1,44 @@
+{
+	"referentes": [
+		{
+			"name": "Julio Barreiro",
+			"place": "Departamentos de Flores y Lavalleja",
+			"linkedIn": "#"
+		},
+		{
+			"name": "Rosario Estrada",
+			"place": "Departamento de Canelones",
+			"linkedIn": "#"
+		},
+		{
+			"name": "Cecilia Cabrera",
+			"place": "Departamento de Florida y Durazno",
+			"linkedIn": "https://www.linkedin.com/in/ceciliacabreramartirena/"
+		},
+		{
+			"name": "Maria Elena Schnyder",
+			"place": "Departamento de Colonia y San José",
+			"linkedIn": "https://www.linkedin.com/in/mar%C3%ADa-elena-schnyder-33b98362/"
+		},
+		{
+			"name": "Andrea Sorondo",
+			"place": "Departamentos de Río Negro y Paysandú",
+			"linkedIn": "#"
+		},
+		{
+			"name": "Virginia Frade",
+			"place": "Departamento de Maldonado",
+			"linkedIn": "#"
+		},
+		{
+			"name": "Carina Vazquez",
+			"place": "Departamento de Rocha",
+			"linkedIn": "#"
+		},
+		{
+			"name": "Laura Motta",
+			"place": "Departamentos de Soriano, Salto, Artigas, Rivera, Tacuarembó, Cerro Largo, Treinta y Tres",
+			"linkedIn": "#"
+		}
+	]
+}

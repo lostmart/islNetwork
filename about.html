@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" href="./favicon-32x32.png" type="image/png" />
+		<link rel="stylesheet" href="./dist/style.min.css" />
+		<link
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+			rel="stylesheet"
+		/>
+		<title>ISL Netwok</title>
+		<style>
+			.padrinos-voluntarios p {
+				margin-bottom: 0.2em;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container mx-auto">
+			<nav-bar></nav-bar>
+			<main>
+				<div class="card">
+					<div class="card-body">
+						<ul class="nav nav-tabs">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="#">ES</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">EN</a>
+							</li>
+						</ul>
+						<about-content></about-content>
+					</div>
+				</div>
+
+				<div class="card mt-4">
+					<div class="card-body">
+						<h5 class="card-title">COORDINACIÓN</h5>
+						<p class="card-text">Prof. Laura Motta</p>
+					</div>
+				</div>
+				<div class="card mt-4">
+					<div class="card-body">
+						<p class="card-text">
+							Los referentes son docentes de inglés como lengua extranjera de
+							diversas procedencias y formaciones que conocen el contexto en el
+							que se desarrolla el Proyecto Godparents.
+						</p>
+						<p class="card-text">
+							Trabajan voluntariamente con grupos de padrinos cuyas escuelas se
+							encuentran en un mismo territorio o departamento.
+						</p>
+						<h4 class="mb-n2">Ellos son:</h4>
+						<div class="row padrinos-voluntarios">
+							<!--  loop to fill this  -->
+						</div>
+					</div>
+				</div>
+				<div class="card mt-4 mx-auto">
+					<div class="card-body">
+						<h5 class="card-title">Equipo de enlace ISL</h5>
+						<div class="row">
+							<div class="col-12 col-md-6">
+								<div class="row">
+									<div class="col col-sm-12">
+										<div class="alert alert-secondary" role="alert">
+											<p class="mb-1">
+												<strong>Dr. Aldo Rodriguez</strong>
+												<a
+													href="https://www.linkedin.com/in/aldo-rodriguez-45515937"
+													target="_blank"
+												>
+													<i class="fab fa-linkedin"></i>
+												</a>
+											</p>
+										</div>
+									</div>
+									<div class="col col-sm-12">
+										<div class="alert alert-secondary" role="alert">
+											<p class="mb-1">
+												<strong>Prof. Florencia Perez</strong>
+												<a
+													href="https://www.linkedin.com/in/mar%C3%ADa-florencia-p%C3%A9rez-784134216/"
+													target="_blank"
+												>
+													<i class="fab fa-linkedin"></i>
+												</a>
+											</p>
+										</div>
+									</div>
+									<div class="col col-sm-12">
+										<div class="alert alert-secondary" role="alert">
+											<p class="mb-1">
+												<strong>Mta. Valentina Alpuin</strong>
+												<a
+													href="https://www.linkedin.com/in/valentina-alpu%C3%ADn-martirena-9263b1215/"
+													target="_blank"
+												>
+													<i class="fab fa-linkedin"></i>
+												</a>
+											</p>
+										</div>
+									</div>
+									<div class="col col-sm-12">
+										<div class="alert alert-secondary" role="alert">
+											<p class="mb-1">
+												<strong>Prof. Valentina Dubini</strong>
+												<a
+													href="https://www.linkedin.com/in/valentinadubini/"
+													target="_blank"
+												>
+													<i class="fab fa-linkedin"></i>
+												</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6">
+								<img src="./asstes/img/isl 20.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+		<script src="./components/NavBar.js"></script>
+		<script src="./components/AboutCont.js"></script>
+		<script>
+			bringData = async () => {
+				let html = ''
+				const resp = await fetch('./data/referentes.json')
+				const jsonData = await resp.json()
+				console.log(jsonData.referentes)
+				jsonData.referentes.map((ref) => {
+					html += `<div class="col col-sm-12 col-lg-4">
+                    <div class="alert alert-secondary" role="alert">
+                      <p><strong>${ref.name}</strong>  
+                        <a href="${ref.linkedIn}" > 
+                          <i class="fab fa-linkedin"></i> 
+                        </a>
+                      </p>
+                      <p>${ref.place}</p>
+                    </div>
+                  </div>
+          `
+				})
+				document.querySelector('.padrinos-voluntarios').innerHTML = html
+			}
+
+			bringData()
+		</script>
+	</body>
+</html>
