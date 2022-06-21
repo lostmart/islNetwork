@@ -4,7 +4,7 @@ class NavBar extends HTMLElement {
 		this.innerHTML = `
             <nav class="navbar navbar-expand-lg navbar-light bg-primary">
 				<div class="container-fluid">
-					<a class="navbar-brand text-white" href="/">
+					<a class="navbar-brand text-white" href="./">
 						<img src="./favicon-32x32.png" alt="padrinos sin limites" />
 					</a>
 					<button
@@ -24,7 +24,7 @@ class NavBar extends HTMLElement {
 								<a
 									class="nav-link text-white"
 									aria-current="page"
-									href="/"
+									href="./"
 									>INICIO</a
 								>
 							</li>
