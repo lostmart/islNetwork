@@ -9,7 +9,7 @@ class QuestFourEng extends HTMLElement {
 					further details, follow the recommendations in this video:
 				</p>
 
-				<div class="d-flex justify-center">
+				<div class="d-flex justify-content-center">
 					<iframe
 					width="560"
 					height="315"
