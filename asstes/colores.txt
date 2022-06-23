@@ -1,0 +1,3 @@
+celestes: #007cc3 & #75c5f0
+naranjas: #ea861b & # f1a700
+verdes: #009744 & #18a958 & #b8db7c
