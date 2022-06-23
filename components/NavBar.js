@@ -35,7 +35,7 @@ class NavBar extends HTMLElement {
 								<a class="nav-link text-white" href="./faq.html">PREGUNTAS</a>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link text-white" href="#">CONTACTO</a>
+								<a class="nav-link text-white"  href = "mailto: abc@example.com">CONTACTO</a>
 							</li>
 						</ul>
 					</div>
