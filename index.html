@@ -7,12 +7,64 @@
 		<link rel="icon" href="./favicon-32x32.png" type="image/png" />
 		<link rel="stylesheet" href="./dist/style.min.css" />
 		<title>ISL Netwok</title>
+		<style>
+			.card {
+				position: relative;
+				min-height: 400px;
+				border: transparent !important;
+			}
+			.card .card-title {
+				position: absolute;
+				top: 1rem;
+				font-size: 3rem;
+				text-shadow: 1px 2px grey;
+				z-index: 1;
+			}
+
+			.card .card-text {
+				position: absolute;
+				top: 5rem;
+				font-size: 1.2rem;
+			}
+			.card .eng {
+				top: 22rem !important;
+			}
+
+			.card .img-cont {
+				background-image: url('./asstes/img/Godparents_2022.jpg');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				filter: blur(2px);
+				-webkit-filter: blur(2px);
+				height: 100%;
+				min-height: 450px;
+				z-index: -1;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="container mx-auto">
 			<nav-bar></nav-bar>
 			<main>
-				<h1 class="text-center">ISL Network</h1>
+				<div class="card">
+					<div class="card-body">
+						<h1 class="card-title">ISL Network</h1>
+						<div class="img-cont"></div>
+						<p class="card-text">
+							Godparents es un proyecto de innovación social de servicios
+							educativos, llevado a cabo por voluntarios, no hay cargos pagos en
+							nuestra organización. Su funcionamiento es enteramente virtual.
+							Brinda apoyo a las escuelas de las comunidades rurales de Uruguay
+							y alcanza a más de 4.500 niños y niñas.
+						</p>
+						<p class="card-text eng">
+							Godparents is a social innovation project for educational
+							services, run entirely by volunteers. There are no paid positions
+							in our organisation.
+						</p>
+					</div>
+				</div>
 			</main>
 		</div>
 		<footer>
