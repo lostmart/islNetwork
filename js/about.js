@@ -13,7 +13,7 @@ const langChange = (val) => {
 	let engPartOne = document.getElementsByTagName('about-content-eng')[0]
 	let engPartTwo = document.getElementsByTagName('about-content-eng-two')[0]
 	if (val === 'eng') {
-		console.log('english ')
+		//console.log('english ')
 		spPartOne.classList.add('animate__fadeOut')
 		spPartTwo.classList.add('animate__fadeOut')
 		setTimeout(() => {
@@ -23,15 +23,15 @@ const langChange = (val) => {
 			engPartTwo.classList.remove('d-none')
 			engPartOne.classList.add('animate__fadeIn')
 			engPartTwo.classList.add('animate__fadeIn')
-        }, 350)
-        navBtnEng.classList.add('active')
-        navBtnSp.classList.remove('active')
-        engPartOne.classList.remove('animate__fadeOut')
+		}, 350)
+		navBtnEng.classList.add('active')
+		navBtnSp.classList.remove('active')
+		engPartOne.classList.remove('animate__fadeOut')
 		engPartTwo.classList.remove('animate__fadeOut')
 	} else {
-		console.log('spanish')
+		//console.log('spanish')
 		engPartOne.classList.add('animate__fadeOut')
-        engPartTwo.classList.add('animate__fadeOut')
+		engPartTwo.classList.add('animate__fadeOut')
 		setTimeout(() => {
 			engPartOne.classList.add('d-none')
 			engPartTwo.classList.add('d-none')
@@ -39,10 +39,10 @@ const langChange = (val) => {
 			spPartTwo.classList.remove('d-none')
 			spPartOne.classList.add('animate__fadeIn')
 			spPartTwo.classList.add('animate__fadeIn')
-        }, 350)
-        spPartOne.classList.remove('animate__fadeOut')
+		}, 350)
+		spPartOne.classList.remove('animate__fadeOut')
 		spPartTwo.classList.remove('animate__fadeOut')
-        navBtnSp.classList.add('active')
+		navBtnSp.classList.add('active')
 		navBtnEng.classList.remove('active')
 	}
 }
