@@ -1,4 +1,4 @@
-class AboutCont extends HTMLElement {
+class AboutContEng extends HTMLElement {
 	constructor() {
 		super()
 		this.innerHTML = `
@@ -102,4 +102,4 @@ class AboutCont extends HTMLElement {
 	}
 }
 
-window.customElements.define('about-content', AboutCont)
+window.customElements.define('about-content-eng', AboutContEng)

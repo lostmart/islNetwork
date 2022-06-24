@@ -10,6 +10,10 @@
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
 			rel="stylesheet"
 		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
 		<title>ISL Netwok</title>
 		<style>
 			.padrinos-voluntarios p {
@@ -25,107 +29,41 @@
 					<div class="card-body">
 						<ul class="nav nav-tabs">
 							<li class="nav-item">
-								<a class="nav-link active" aria-current="page" 
+								<button
+								class="nav-link active"
+								aria-current="page"
 								data-lang="sp"
-								href="#">ES</a>
+								>ES</button
+								>
 							</li>
 							<li class="nav-item">
-								<a class="nav-link" href="#">EN</a>
+								<button
+								class="nav-link"
+								aria-current="page"
+								data-lang="eng"
+								>EN</button>
 							</li>
 						</ul>
-						<about-content></about-content>
+						<about-content-es
+							style="display: block"
+							class="animate__animated animate__faster animate__fadeIn"
+						></about-content-es>
+						<about-content-eng
+							style="display: block"
+							class="animate__animated animate__faster d-none"
+						>
+						</about-content-eng>
 					</div>
 				</div>
 
-				<div class="card mt-4">
-					<div class="card-body">
-						<h5 class="card-title">COORDINACIÓN</h5>
-						<p class="card-text">Prof. Laura Motta</p>
-					</div>
-				</div>
-				<div class="card mt-4">
-					<div class="card-body">
-						<p class="card-text">
-							Los referentes son docentes de inglés como lengua extranjera de
-							diversas procedencias y formaciones que conocen el contexto en el
-							que se desarrolla el Proyecto Godparents.
-						</p>
-						<p class="card-text">
-							Trabajan voluntariamente con grupos de padrinos cuyas escuelas se
-							encuentran en un mismo territorio o departamento.
-						</p>
-						<h4 class="mb-n2">Ellos son:</h4>
-						<div class="row padrinos-voluntarios">
-							<!--  loop to fill this  -->
-						</div>
-					</div>
-				</div>
-				<div class="card mt-4 mx-auto">
-					<div class="card-body">
-						<h5 class="card-title">Equipo de enlace ISL</h5>
-						<div class="row">
-							<div class="col-12 col-md-6">
-								<div class="row">
-									<div class="col col-sm-12">
-										<div class="alert alert-secondary" role="alert">
-											<p class="mb-1">
-												<strong>Dr. Aldo Rodriguez</strong>
-												<a
-													href="https://www.linkedin.com/in/aldo-rodriguez-45515937"
-													target="_blank"
-												>
-													<i class="fab fa-linkedin"></i>
-												</a>
-											</p>
-										</div>
-									</div>
-									<div class="col col-sm-12">
-										<div class="alert alert-secondary" role="alert">
-											<p class="mb-1">
-												<strong>Prof. Florencia Perez</strong>
-												<a
-													href="https://www.linkedin.com/in/mar%C3%ADa-florencia-p%C3%A9rez-784134216/"
-													target="_blank"
-												>
-													<i class="fab fa-linkedin"></i>
-												</a>
-											</p>
-										</div>
-									</div>
-									<div class="col col-sm-12">
-										<div class="alert alert-secondary" role="alert">
-											<p class="mb-1">
-												<strong>Mta. Valentina Alpuin</strong>
-												<a
-													href="https://www.linkedin.com/in/valentina-alpu%C3%ADn-martirena-9263b1215/"
-													target="_blank"
-												>
-													<i class="fab fa-linkedin"></i>
-												</a>
-											</p>
-										</div>
-									</div>
-									<div class="col col-sm-12">
-										<div class="alert alert-secondary" role="alert">
-											<p class="mb-1">
-												<strong>Prof. Valentina Dubini</strong>
-												<a
-													href="https://www.linkedin.com/in/valentinadubini/"
-													target="_blank"
-												>
-													<i class="fab fa-linkedin"></i>
-												</a>
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-12 col-md-6">
-								<img src="./asstes/img/isl 20.jpg" alt="" />
-							</div>
-						</div>
-					</div>
-				</div>
+				<about-content-es-two
+					style="display: block"
+					class="animate__animated animate__faster animate__fadeIn"
+				></about-content-es-two>
+				<about-content-eng-two
+					style="display: block"
+					class="animate__animated animate__faster d-none"
+				></about-content-eng-two>
 			</main>
 		</div>
 
@@ -136,6 +74,9 @@
 		></script>
 		<script src="./components/NavBar.js"></script>
 		<script src="./components/AboutContSp.js"></script>
+		<script src="./components/AboutContSpTwo.js"></script>
+		<script src="./components/AboutContEng.js"></script>
+		<script src="./components/AboutContEngTwo.js"></script>
 		<script>
 			bringData = async () => {
 				let html = ''

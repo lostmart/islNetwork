@@ -102,4 +102,4 @@ class AboutCont extends HTMLElement {
 	}
 }
 
-window.customElements.define('about-content', AboutCont)
+window.customElements.define('about-content-es', AboutCont)

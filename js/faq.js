@@ -49,7 +49,7 @@ const langChange = (val, indx) => {
 for (let index = 0; index < navsSp.length; index++) {
 	const element = navsSp[index]
 	element.addEventListener('click', (e) => {
-		let value = e.target.getAttribute('data-lang')
+		 
 		langChange(value, index)
 	})
 }
