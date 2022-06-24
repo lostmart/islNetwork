@@ -2,101 +2,89 @@ class AboutContEng extends HTMLElement {
 	constructor() {
 		super()
 		this.innerHTML = `
-            <h2 class="card-title mt-4">Quiénes somos</h2>
+            <h2 class="card-title mt-4">About us</h2>
 						<p class="card-text">
-							Somos una <strong>red</strong> de padrinos y madrinas
-							<strong>voluntarios</strong> que desde diferentes países del mundo
-							colaboramos con las <strong>escuelas rurales</strong> de Uruguay.
+							We are a <strong>network of volunteer</strong> godparents from
+							different countries of the world who
+							<strong>collaborate with rural schools</strong> in Uruguay.
 						</p>
 
 						<p class="card-text">
-							Los padrinos y madrinas tienen
-							<strong>diferentes recorridos personales y laborales</strong>
-							educadores, científicos, cientistas sociales, pilotos,
-							emprendedores, periodistas, cineastas, estudiantes de posgrado,
-							etc. Algunos nos encontramos retirados, otros en actividad, todos
-							<strong
-								>compartimos la vocación solidaria y el compromiso de colaborar
-								con los niños y sus maestras.</strong
+							Godparents have different personal and work paths: educators,
+							scientists, social scientists, pilots, entrepreneurs,
+							journalists, filmmakers, graduate students, etc. Some are
+							retired, others are active, we all share the spirit of
+							solidarity and commitment to work with children and their
+							teachers.
 							>
 						</p>
+						<p>
+							The tutors are teachers of English as a foreign language from
+							various backgrounds who know the context in which the Godparents
+							Project is developed.
+						</p>
+						<p>
+							They work voluntarily with groups of godparents whose schools
+							are in the same territory or province
+						</p>
 
-						<h2 class="ma-4">Nuestros inicios</h2>
+						<h2 class="ma-4">Our beginnings ...</h2>
 						<p class="card-text">
-							En el año 2018 el programa
-							<a
-								target="_blank"
-								href="https://www.anep.edu.uy/codicen/politicas-linguisticas/focus-on-first"
-								>Inglés sin Límites</a
-							>
-							comienza a brindar enseñanza de inglés de calidad a
-							<a
-								target="_blank"
-								href="https://www.dgeip.edu.uy/departamentos/rural/"
-								>escuelas rurales de Uruguay</a
-							>
-							a las cuales no es posible llegar ni con la
-							<a
-								target="_blank"
-								href="https://www.dgeip.edu.uy/departamentos/lenguas/"
-								>presencialidad</a
-							>
-							ni la modalidad
-							<a target="_blank" href="https://ingles.ceibal.edu.uy/">remota</a>
-							por videoconferencia.
+							In 2018 Inglés Sin Límites’ program started bringing English
+							instruction to rural schools where neither face to face English
+							teachers nor remote videoconference lessons are available
+							because of both geographical location and/or weak internet
+							connection.
 						</p>
 						<p class="mt-4">
-							En diversos encuentros durante el 2019 las maestras manifestaron
-							los desafíos que les presentaba el uso de la lengua meta, en tal
-							sentido solicitaron y demostraron predisposición al aprendizaje.
+							In 2019 during some meetings, teachers mentioned the challenging
+							situation regarding the use of the target language when
+							implementing Inglés Sin Límites in their schools. Teachers also
+							showed themselves open and predisposed to learning the foreign
+							language.
 						</p>
 
 						<p class="mt-4">
-							Ya existían algunas experiencias de voluntariado de profesores de
-							inglés jubilados en escuelas con las cuales tenían vínculo directo
-							en la enseñanza de inglés como lengua extranjera.
+							Other volunteering experiences of retired English teachers took
+                			place in a few rural schools.
 						</p>
 
 						<p class="mt-4">
-							En el segundo semestre de 2019 se realiza un piloto del proyecto
-							Godparents en 25 escuelas, resultando una experiencia muy positiva
-							que se extendió en el 2020 a 250 escuelas.
+							During the second semester of 2019 a Godparents’ pilot Project
+							was implemented in 25 rural schools with positive results, after
+							which the project extended to 250 schools in 2020.
 						</p>
 						<p class="mt-4">
-							Hoy contamos con 550 escuelas en el Proyecto godparents y 500
-							padrinos y madrinas
+							Today, 550 schools are participating in the Godparents’ project
+                			with 500 godparents as active members.
 						</p>
 						<p class="my-4">
-							Inglés Sin Límites (ISL) se basa en el análisis de la función
-							docente desde dos perspectivas:
+							<i>Inglés Sin Límites </i>(ISL) is rooted in two different
+                			aspects of the teacher’s role:
 						</p>
 						<ol>
-							<li>La organización y facilitación del aprendizaje</li>
-							<li>
-								La experticia en el objeto de aprendizaje: la lengua inglesa.
-							</li>
+							<li>Organization and learning facilitation.</li>
+                			<li>Lack of expertise in the target language.</li>
 						</ol>
 						<p class="my-4">
-							Las maestras rurales no poseen, en general, el conocimiento del
-							idioma inglés como objeto y medio de enseñanza pero si tienen
-							profunda formación en el manejo de clase y una visión de la
-							organización del aprendizaje, no solo en la lengua meta sino en
-							todos los demás aspectos del currículo.
+							Despite not having a deep understanding of English language to
+							be taught, rural teachers’ training regarding classroom
+							management and learning processes, planning and organization in
+							other contents of the national curriculum gives them tools and
+							strategies to implement Inglés Sin Límites in their schools.
 						</p>
 						<p class="my-4">
-							El programa desarrolla materiales específicos basado en
-							videolecciones que son entregados a la maestra conjuntamente con
-							una guía pormenorizada. Esta es la base del modelo de lengua a
-							enseñar. La maestra trabaja con sus alumnos siguiendo la pauta que
-							se encuentra en la guía y armoniza los contenidos, habilidades y
-							destrezas con las enseñadas durante el resto de la jornada
-							escolar.
+							The program is delivered through video-lessons where language
+							functions, exponents and vocabulary are presented. A guided
+							lesson plan is provided to the school teacher with detailed
+							information about classroom management and specific English
+							teaching strategies.
 						</p>
 						<p class="my-4">
-							El programa ha demostrado en los cuatros años de desarrollo que
-							los niños de las escuelas rurales aprenden una lengua extranjera
-							con un material de muy buena calidad y docentes profesionales
-							motivados y motivadores.
+							In four years of implementation, Inglés Sin Límites has shown
+							that children from rural schools learn a foreign language with
+							good quality material, professional, active and motivated
+							teachers.
 						</p>
         `
 	}
