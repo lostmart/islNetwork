@@ -4,21 +4,11 @@ class AboutCont extends HTMLElement {
 		this.innerHTML = `
             <h2 class="card-title mt-4">Quiénes somos</h2>
 						<p class="card-text">
-							Somos una <strong>red</strong> de padrinos y madrinas
-							<strong>voluntarios</strong> que desde diferentes países del mundo
-							colaboramos con las <strong>escuelas rurales</strong> de Uruguay.
+							Somos una <strong>red</strong> de 534 padrinos y madrinas voluntarios que desde diferentes países colaboramos con las escuelas rurales de Uruguay.
 						</p>
 
 						<p class="card-text">
-							Los padrinos y madrinas tienen
-							<strong>diferentes recorridos personales y laborales</strong>
-							educadores, científicos, cientistas sociales, pilotos,
-							emprendedores, periodistas, cineastas, estudiantes de posgrado,
-							etc. Algunos nos encontramos retirados, otros en actividad, todos
-							<strong
-								>compartimos la vocación solidaria y el compromiso de colaborar
-								con los niños y sus maestras.</strong
-							>
+							Los padrinos y madrinas tenemos <strong>diferentes recorridos personales y laborales:</strong> educadores, científicos, cientistas sociales, pilotos, emprendedores, periodistas, cineastas, estudiantes de posgrado, etc. Algunos retirados, otros en actividad, todos <strong>compartimos la vocación solidaria y el compromiso de colaborar con los niños, las niñas y sus maestras.</strong>
 						</p>
 
 						<h2 class="ma-4">Nuestros inicios</h2>

@@ -5,7 +5,14 @@ class AboutContTwoEng extends HTMLElement {
             <div class="card mt-4">
 					<div class="card-body">
 						<h5 class="card-title">COORDINACIÓN</h5>
-						<p class="card-text">Prof. Laura Motta</p>
+						<div class="row">
+							<div class="col-4 d-flex align-items-center">
+								<p class="card-text">Prof. Laura Motta</p>
+							</div>
+							<div class="col-6 d-flex align-items-center">
+								<img class="img-laura img-thumbnail" src="./asstes/img/laura-motta.jpg" alt="Laura Motta coordinadora">
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="card mt-4">
@@ -62,7 +69,7 @@ class AboutContTwoEng extends HTMLElement {
 											<p class="mb-1">
 												<strong>Mta. Valentina Alpuin</strong>
 												<a
-													href="https://www.linkedin.com/in/valentina-alpu%C3%ADn-martirena-9263b1215/"
+													href=" https://www.linkedin.com/in/valentinaalpuin/"
 													target="_blank"
 												>
 													<i class="fab fa-linkedin"></i>
