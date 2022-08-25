@@ -52,20 +52,7 @@ class AboutCont extends HTMLElement {
 							Godparents en 25 escuelas, resultando una experiencia muy positiva
 							que se extendió en el 2020 a 250 escuelas.
 						</p>
-						<p class="mt-4">
-							Hoy contamos con 550 escuelas en el Proyecto godparents y 500
-							padrinos y madrinas
-						</p>
-						<p class="my-4">
-							Inglés Sin Límites (ISL) se basa en el análisis de la función
-							docente desde dos perspectivas:
-						</p>
-						<ol>
-							<li>La organización y facilitación del aprendizaje</li>
-							<li>
-								La experticia en el objeto de aprendizaje: la lengua inglesa.
-							</li>
-						</ol>
+					
 						<p class="my-4">
 							Las maestras rurales no poseen, en general, el conocimiento del
 							idioma inglés como objeto y medio de enseñanza pero si tienen
@@ -88,6 +75,9 @@ class AboutCont extends HTMLElement {
 							con un material de muy buena calidad y docentes profesionales
 							motivados y motivadores.
 						</p>
+
+						<img style="max-width:250px" class="rounded mx-auto d-block" src="../asstes/img/organizacion-centrada-en-alumno-islnetwork.jpg" alt="organización del aprendizaje centrada en el alumno
+" />
         `
 	}
 }
