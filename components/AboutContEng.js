@@ -83,8 +83,7 @@ class AboutContEng extends HTMLElement {
 						<p class="my-4">
 							In four years of implementation, Inglés Sin Límites has shown
 							that children from rural schools learn a foreign language with
-							good quality material, professional, active and motivated
-							teachers.
+							<strong> professional, active and motivated teachers.</strong>
 						</p>
         `
 	}
